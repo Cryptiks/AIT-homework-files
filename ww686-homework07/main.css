@@ -15,11 +15,9 @@ td {
   box-shadow: 10px 10px 5px #888888;
 }
 
-td:hover {
+/*td:hover {
   background-color: DimGray;
-  width: 90px;
-  height: 90px;
-}
+}*/
 
 #title {
   display block;

@@ -65,6 +65,8 @@ function clickPlay(event) {
 
         // add event listener to each card
         cell.addEventListener('click', flipCard);
+        cell.addEventListener('mouseover', hoverOver);
+        cell.addEventListener('mouseout', hoverOff);
         row.appendChild(cell);
 
       }
@@ -161,6 +163,16 @@ function clickPlay(event) {
     card.style.backgroundColor = 'black';
     card.innerHTML = '';
   }
+
+  function hoverOver() {
+    if (this.innerHTML === '') {
+      this.style.backgroundColor = 'DimGray';
+    }
+  }
+  function hoverOff() {
+    if (this.innerHTML === '') {
+      this.style.backgroundColor = 'black';
+    }  }
 
   function determineWin() {
     if (totalFlips === numCards) {
