@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+    {{#if user}}
+    Logged in as {{user.username}} (<a href = '/logout'>Logout</a>)
+    {{/if}}
+
+    <h1>Shoppy Shoperson</h1>
+    {{{body}}}
+
+    <br>
+
+    {{#if user}}
+    <a href = '/'>Home</a> | <a href = '/list'>All Lists</a> | <a href = "/list/create">Create A New List</a>
+    {{/if}}
+
+  </body>
+</html>

@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Wed, 07 Oct 2015 15:16:56 GMT
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Wed, 07 Oct 2015 15:17:09 GMT
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Wed, 07 Oct 2015 15:17:25 GMT
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Date: Wed, 07 Oct 2015 15:17:35 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Location: /about
+Date: Wed, 07 Oct 2015 15:17:49 GMT
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/css
+Date: Wed, 07 Oct 2015 15:18:28 GMT
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: image/png
+Date: Wed, 07 Oct 2015 15:18:54 GMT
+Connection: keep-alive
+

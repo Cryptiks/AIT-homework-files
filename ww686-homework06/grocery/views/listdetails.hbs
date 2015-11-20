@@ -1,0 +1,26 @@
+<h2>{{name}}</h2>
+
+<form method = 'POST' action = '../item/check'>
+<ul style =' list-style: none'>
+  {{#each items}}
+  {{#if checked}}
+  <strike>{{quantity}} x {{name}}</strike>
+  <br>
+  {{else}}
+  <li><input type = 'checkbox' name = 'checklist' value = {{id}} > {{quantity}} x {{name}}</li>
+  {{/if}}
+  {{/each}}
+</ul>
+<input type = 'hidden' name = 'slug' value = {{slug}}>
+<input type = 'submit' value = 'Check Off Items'>
+</form>
+
+<br>
+
+<form method = 'POST' action = '../item/create'>
+  <input type = 'text' name = 'quantity' placeholder = 'qty'>
+   x
+  <input type = 'text' name = 'item' placeholder = 'item'>
+  <input type = 'hidden' name = 'slug' value = {{slug}}>
+  <input type = 'submit' value = 'Add to List'>
+</form>

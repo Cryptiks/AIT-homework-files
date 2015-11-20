@@ -1,0 +1,12 @@
+body, table {
+
+  background-color: LightBlue;
+  font-family: Helvetica;
+  text-align: center;
+
+  margin: auto;
+}
+
+td {
+  padding: 5px;
+}

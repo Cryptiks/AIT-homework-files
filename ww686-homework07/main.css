@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+
+table {
+  display: inline-block;
+  margin: auto;
+  border-spacing: 10px;
+}
+
+td {
+  text-align: center;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+td:hover {
+  background-color: DimGray;
+  width: 90px;
+  height: 90px;
+}
+
+#title {
+  display block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid LightBlue;
+}
+
+#win {
+  display: block;
+  width: 50%;
+  margin: auto;
+  background-color: LightBlue;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
